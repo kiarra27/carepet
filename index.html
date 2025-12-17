@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home One || CarePress || Pet Care Responsive HTML 5 Template</title>
+
+	<!-- responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<link rel="stylesheet" href="assets/css/aos.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="assets/css/imp.css">
+	<link rel="stylesheet" href="assets/css/custom-animate.css">
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/owl.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/scrollbar.css">
+	<link rel="stylesheet" href="assets/css/hiddenbar.css">
+   
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link href="assets/css/color/theme-color.css" id="jssDefault" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/images/favicon/favicon-16x16.png" sizes="16x16">
+
+    <!-- Fixing Internet Explorer-->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+    
+    <style>
+        .whatsapp-bubble {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        .whatsapp-bubble img {
+            width: 30px;
+            height: 30px;
+        }
+        .row{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <style>
+        .whatsapp-bubble {
+            width: 60px;
+            height: 60px;
+            background-color: #25D366; /* Warna hijau khas WhatsApp */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+    
+        .whatsapp-bubble:hover {
+            transform: scale(1.1); /* Efek saat dihover */
+        }
+    
+        .whatsapp-bubble img {
+            width: 35px;
+            height: 35px;
+            align-items: center;
+        }
+    </style>
+    
+    <div class="whatsapp-bubble" onclick="goToWhatsAppUI()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+    </div>
+    
+    <script>
+        function goToWhatsAppUI() {
+            window.location.href = "whatsappUI.html"; // Mengarahkan ke direktori whatsappUI.html
+        }
+    </script>
+    
+    
+
+<div class="boxed_wrapper">
+
+<div class="preloader"></div>
+
+<!-- Hidden Navigation Bar -->
+<section class="hidden-bar right-align">
+    <div class="hidden-bar-closer">
+        <button><span class="flaticon-multiply"></span></button>
+    </div>
+    <div class="hidden-bar-wrapper">
+        <div class="logo">
+            <a href="index.php"><img src="assets/images/resources/hidden-bar-logo.png" alt="Logo"/></a>
+        </div>
+        <div class="hiddenbar-about-us">
+            <h3>About Us</h3>
+            <div class="text">
+                <p>We must explain to you how all seds this mistakens idea off denouncing pleasures and praising pain was born and I will give you a completed accounts off the system and expound the actually teaching.</p>
+            </div>    
+        </div>
+        <div class="contact-info-box">
+            <h3>Contact Info</h3>
+            <ul>
+                <li>
+                    <h5>Address</h5>
+                    <p>Romanian  9520 Faires Farm Road,<br> Carlsbad, NC 28213.</p>
+                </li>
+                <li>
+                    <h5>Phone</h5>
+                    <p><a href="tel:123456789">+1 555-7890-123</a></p>
+                </li>
+                <li>
+                    <h5>Email</h5>
+                    <p><a href="mailto:info@templatepath.com">supportyou@example.com</a></p>
+                </li>
+            </ul>
+        </div>       
+        <div class="newsletter-form-box">
+            <h3>Newsletter Subscribe</h3>
+            <form action="#">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <input type="email" name="email" placeholder="Email Address..."> 
+                        <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>    
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="copy-right-text">
+            <p>© CarePress 2020, All Rights Reserved.</p>
+        </div> 
+    </div>
+</section>
+<!-- End Hidden Bar -->    
+
+<!-- Main header-->
+<header class="main-header header-style-one">
+    <!--Start Header Top--> 
+    <div class="header-top">
+        <div class="outer-container">
+            <div class="outer-box clearfix">
+               
+                <div class="header-top-left pull-left">
+                    <div class="header-contact-info">
+                        <ul>
+                            <li><span class="icon-envelope"></span><a href="mailto:logistic@email.com">info@website.com</a></li>
+                            <li><span class="icon-phone-call"></span><a href="tel:123456789">+098987 876 767</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="header-top-right pull-right">
+                    <div class="header-social-link">
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a> 
+                            </li>
+                        </ul>
+                        <div class="header-social-link">
+    <ul>
+        
+    </ul>
+
+    <!-- 🔽 Tambahkan kode ini -->
+    <div class="signup-link" style="margin-right: 15px;">
+        <a href="signupuser.html" class="signup-btn" style="display:flex;align-items:center;color:#ff4880;font-weight:600;">
+            <i class="fa fa-user-plus" style="margin-right:5px;"></i> Daftar
+        </a>
+    </div>
+    <!-- 🔼 -->
+     <div class="login-link" style="margin-right: 15px;">
+    <a href="loginuser.html" class="login-btn" 
+       style="display:flex;align-items:center;color:#ff4880;font-weight:600;">
+        <i class="fa fa-user" style="margin-right:5px;"></i> Login
+    </a>
+</div>
+
+     <div class="cart-link">
+    <a href="cart.html" class="cart-btn">
+        <i class="fa fa-shopping-cart"></i>
+        <span class="cart-text">Keranjang</span>
+        <span id="cart-count-header" class="cart-count">0</span>
+    </a>
+</div>
+                    </div>      
+                </div> 
+                  
+            </div>
+        </div>    
+    </div> 
+    <!--End header Top-->
+
+    <li>
+  <a href="cart.html">
+    <i class="fa fa-shopping-cart"></i> Cart 
+    <span id="cart-count" class="badge bg-danger">0</span>
+  </a>
+</li>
+
+    <div class="header">
+        <div class="outer-container">
+            <div class="outer-box clearfix">
+                <!--Start Header Left-->
+                <div class="header-left clearfix pull-left">
+                   
+                    <div class="logo">
+                        <a href="index.php"><img src="assets/images/resources/logo.png" alt="Awesome Logo" title=""></a>
+                    </div>
+                    
+                    <div class="nav-outer clearfix">
+                        <!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler">
+                            <div class="inner">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                        </div>
+                        <!-- Main Menu -->
+                        <nav class="main-menu style1 navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li class="index.php"><a href="#">Home</a>
+                                        <ul>
+<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart (<span id="cart-count">0</span>)</a></li>
+
+                                            <li class="cart-menu"><a href="index.php"><i class="fa fa-shopping-cart"></i> Keranjang (<span id="cart-count">0</span>)</a></li>
+                                            
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="services.html">Services</a>
+                                        
+                                    </li>
+                                    <li> <a href="shop.html">Our Shop</a>
+                                    	
+                                    </li>
+                                    <li><a href="news.html">News</a>
+                                    	
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>                        
+                        <!-- Main Menu End-->
+                    </div>
+                    
+                </div>
+                <!--End Header Left-->
+                
+                <!--Start Header Right-->
+                <div class="header-right pull-right clearfix">
+
+                    <div class="header-right pull-right clearfix">
+
+    <!-- LOGO LOGIN DARI loginuser.html -->
+    <a href="loginuser.html" style="text-decoration:none;">
+        <div class="login-logo"
+            style="font-size:20px;font-weight:bold;color:#2D3561;display:flex;
+            align-items:center;margin-right:25px;cursor:pointer;">
+            CP<span style="color:#FF6B35;">PETINDO</span>
+        </div>
+                    
+                    <div class="button">
+                        <a class="btn-one" href="#"><span class="txt">Get Appointment</span></a>
+                    </div>
+                    <div class="hidden-content-button bar-box">
+                        <a class="side-nav-toggler nav-toggler hidden-bar-opener" href="#">
+                            <ul>
+                                <li class="red2"></li>
+                                <li class="red2"></li>
+                                <li></li>
+                            </ul>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <ul>
+                                <li class="red2"></li>
+                                <li></li>
+                                <li class="red2"></li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+                <!--End Header Right-->
+            </div>  
+        </div>
+    </div>
+    <!--End header -->
+    
+    <!--Sticky Header-->
+    <div class="sticky-header">
+        <div class="container">
+            <div class="clearfix">
+                <!--Logo-->
+                <div class="logo float-left">
+                    <a href="index.php" class="img-responsive"><img src="assets/images/resources/sticky-logo.png" alt="" title=""></a>
+                </div>
+                <!--Right Col-->
+                <div class="right-col float-right">
+                    <!-- Main Menu -->
+                    <nav class="main-menu clearfix">
+                    <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Sticky Header-->
+    
+    <!-- Mobile Menu  -->
+    <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+
+        <nav class="menu-box">
+            <div class="nav-logo"><a href="index.php"><img src="assets/images/resources/mobilemenu-logo.png" alt="" title=""></a></div>
+            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            <!--Social Links-->
+            <div class="social-links">
+                <ul class="clearfix">
+                    <li><a href="#"><span class="fab fa fa-facebook-square"></span></a></li>
+                    <li><a href="#"><span class="fab fa fa-twitter-square"></span></a></li>
+                    <li><a href="#"><span class="fab fa fa-pinterest-square"></span></a></li>
+                    <li><a href="#"><span class="fab fa fa-google-plus-square"></span></a></li>
+                    <li><a href="#"><span class="fab fa fa-youtube-square"></span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- End Mobile Menu --> 
+</header>
+
+
+<!-- Start Main Slider -->
+<section class="main-slider style1">
+    <div class="slider-box">
+        <!-- Banner Carousel -->
+        <div class="banner-carousel owl-theme owl-carousel">
+            <!-- Slide -->
+            <div class="slide">
+                <div class="image-layer" style="background-image:url(assets/images/slides/slide-v1-1.jpg)"></div>
+                <div class="auto-container">
+                    <div class="content">
+                        <h5><span></span></h5>
+                        <h2><br></span></h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide -->
+            <div class="slide">
+                <div class="image-layer" style="background-image:url(assets/images/slides/slide-v1-2.jpg)"></div>
+                <div class="auto-container">
+                    <div class="content">
+                        <h5><span></span></h5>
+                        <h2><br> 
+                    </div>
+                </div>
+            </div>
+            <!-- Slide -->
+            <div class="slide">
+                <div class="image-layer" style="background-image:url(assets/images/slides/slide-v1-3.jpg)"></div>
+                <div class="auto-container">
+                    <div class="content">
+                        <h5><span></span></h5>
+                        <h2><br></span></h2>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- End Main Slider paroller -->
+
+<!--Start Featured Area-->
+<section class="featured-area">
+    <div class="container">
+        <div class="row">
+            <!--Start Single Featured Box-->
+            <div class="col-xl-4">
+                <div class="single-featured-box">
+                    <div class="inner">
+                        <div class="icon">
+                            <span class="icon-dog"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Grooming</h3>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <!--End Single Featured Box-->
+            <!--Start Single Featured Box-->
+            <div class="col-xl-4">
+                <div class="single-featured-box">
+                    <div class="inner">
+                        <div class="icon">
+                            <span class="icon-dog-food clr2"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Shopping</h3>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <!--End Single Featured Box-->
+            <!--Start Single Featured Box-->
+            <div class="col-xl-4">
+                <div class="single-featured-box">
+                    <div class="inner">
+                        <div class="icon">
+                            <span class="icon-pet-bowl clr3"></span>
+                        </div>
+                        <div class="text">
+                            <h3>Veterinary</h3>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <!--End Single Featured Box-->
+        </div>
+    </div>
+</section>
+<!--End Featured Area-->
+
+<!--Start About Style1 Area-->
+<section class="about-style1-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7">
+                <div class="about-style1-image-box">
+                    <div class="about-style1-image-box-bg" style="background-image: url(assets/images/shape/about-style1-image-box-bg.png)"></div>
+                    <div class="main-image">
+                        <img src="assets/images/about/about-1.png" alt="Awesome Image"> 
+                    </div>
+                    <div class="about-experience-box">
+                        <div class="count-box">
+                            <h2>
+                                <span class="timer" data-from="1" data-to="20" data-speed="5000" data-refresh-interval="50">1020</span>
+                                <span class="icon-plus plus-icon"></span>
+                            </h2>
+                            <h5>Years Experience</h5>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            
+           
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>   
+                </div>    
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!--End About Style1 Area-->
+
+<!-- Start Service Style1 Area -->
+<section class="service-style1-area">
+    <div class="shape1">
+        <img src="assets/images/shape/shape-1.png" alt="">
+    </div>
+    <div class="shape2">
+        <img src="assets/images/shape/shape-2.png" alt="">
+    </div>
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="icon">
+                <i class="icon-bone"></i>
+            </div>
+            <h2>What We Do<span class="round-box zoominout"></span></h2>
+        </div>
+        <div class="row">
+            <!--Start Single Service Style1-->
+            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                <div class="single-service-style1">
+                    <div class="img-holder">
+                        <div class="inner">
+                            <img src="assets/images/services/service-v1-1.jpg" alt="">
+                        </div>
+                    </div> 
+                    <div class="text-holder">
+                        <h3><a href="#">Pet Grooming</a></h3>
+                        <p>Perawatan terbaik untuk menjaga kebersihan dan kesehatan bulu hewan peliharaan Anda.</p>
+                        <div class="button">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <!--End Single Service Style1-->
+          
+       
+            <!--Start Single Service Style1-->
+            <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <div class="single-service-style1">
+                    <div class="img-holder">
+                        <div class="inner">
+                            <img src="assets/images/services/service-v1-4.jpg" alt="">
+                        </div>
+                    </div> 
+                    <div class="text-holder">
+                        <h3><a href="#">Veterinary Service</a></h3>
+                        <p>Layanan kesehatan terpercaya dengan dukungan dokter hewan berpengalaman.</p>
+                        <div class="button">
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+            <!--End Single Service Style1-->
+           
+        </div>
+
+    </div>
+</section>
+<!-- End Service Style1 Area -->
+
+<!--Start Video Gallery Area-->
+<section class="video-gallery-area">
+    <div class="container-fullwidth">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="video-gallery-content-box text-center">
+                    <img src="assets/images/resources/video-gallery-image.png" alt="">
+                    <h2>Get Every Pet<br> Food & Tools Here.</h2>
+                    <p>Temukan semua kebutuhan nutrisi mulai dari makanan premium hingga camilan sehat yang mendukung kesehatan optimal mereka. Selain itu, kami menyediakan beragam peralatan dan aksesori terbaik untuk memastikan kenyamanan, keamanan, dan kebahagiaan sehari-hari peliharaan Anda. Kunjungi kami sekarang untuk mendapatkan solusi lengkap bagi hewan kesayangan Anda, karena semua kebutuhan pet food dan tools tersedia di sini.</p>
+                    <div class="button">
+                        <a class="btn-one" href="shop.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="txt">Shop Now</span></a>
+                    </div>
+                </div>    
+            </div>
+            
+            <div class="col-xl-6">
+                <div class="video-holder-box text-center" style="background-image: url(assets/images/resources/video-gallery-bg.jpg)">
+                    <div class="icon wow zoomIn" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <a class="video-popup thm-bgclr" title="CarePress Video Gallery" href="https://www.youtube.com/watch?v=MUbybMgZPOQ">
+                            <span class="icon-play-button"></span>
+                        </a>
+                    </div>
+                </div>    
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!--End Video Gallery Area-->
+
+<!--Start Feautres Area-->
+<section class="feautres-area">
+    <div class="container">
+        <div class="row">
+           
+           
+
+
+
+
+<!--Start Testimonial style1 Area-->
+<section class="testimonial-style1-area">
+    <div class="image-box1"><img src="assets/images/testimonial/testimonial-image-1.png" alt=""></div>
+    <div class="image-box2"><img src="assets/images/testimonial/testimonial-image-2.png" alt=""></div>
+    <div class="image-box3 paroller"><img src="assets/images/testimonial/testimonial-image-3.png" alt=""></div>
+    <div class="image-box4 paroller"><img src="assets/images/testimonial/testimonial-image-4.png" alt=""></div>
+    <div class="layer-outer" style="background-image: url(assets/images/resources/map.png)"></div>
+    <div class="container">
+        <div class="sec-title text-center">
+            <div class="icon">
+                <i class="icon-bone"></i>
+            </div>
+            <h2>Clients Feedback<span class="round-box zoominout"></span></h2>
+        </div>
+        <div class="row"> 
+            <div class="col-xl-12 col-lg-12">
+                <div class="testimonial-carousel owl-carousel owl-theme">
+                    <!--Start Single Testimonial Style1-->
+                    <div class="single-testimonial-style1  wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                        <div class="img-holder">
+                            <img src="assets/images/testimonial/tes-v1-1.png" alt="Awesome Image">
+                        </div>
+                        <div class="text-holder">
+                            <h2>William Widjaja & Partners Law Firm</h2>
+                            <span>Founder, wwplawfirm</span>     
+                            <div class="text-box">
+                                <p>Layanan rawat pet ini sangat profesional dan memenuhi standar tertinggi. Hewan peliharaan saya mendapatkan perhatian penuh, dengan fasilitas yang nyaman dan kebersihan terjaga. Saya sangat merekomendasikan layanan ini.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Testimonial Style1-->
+                    <!--Start Single Testimonial Style1-->
+                    <div class="single-testimonial-style1  wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                        <div class="img-holder">
+                            <img src="assets/images/testimonial/tes-v1-2.png" alt="Awesome Image">
+                        </div>
+                        <div class="text-holder">
+                            <h2>Miranda H. Halim</h2>
+                            <span>Founder, Miranda Family</span>     
+                            <div class="text-box">
+                                <p>Layanan rawat pet ini menunjukkan profesionalisme tinggi. Pelayanan prima, fasilitas memadai, dan kebersihan terjaga. Sangat direkomendasikan untuk pemilik hewan yang mengutamakan kualitas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Testimonial Style1-->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Testimonial Style1 Area-->
+
+
+                   
+
+<!--Start footer area-->  
+<footer class="footer-area">
+    <div class="footer-bg" style="background-image: url(assets/images/shape/footer-bg.png)"></div>    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="footer-logo">
+                        <div class="logo">
+                            <a href="index.php"><img src="assets/images/footer/footer-logo.png" alt="Awesome Footer Logo" title="Logo"></a> 
+                        </div>
+                        <div class="copy-right">
+                            <p>Copyright & Design By</p>
+                            <h4>WebTend - 2020</h4>
+                        </div>  
+                    </div>
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Get Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact-info">
+                        <div class="single-box">
+                            <div class="icon">
+                                <span class="icon-phone-call"></span>
+                            </div>
+                            <div class="title">
+                                <span>Emergency Call</span>
+                                <h3><a href="tel:123456789">+987 876 877 876 6</a></h3>
+                            </div>
+                        </div>
+                        <div class="single-box">
+                            <div class="icon">
+                                <span class="icon-phone-call"></span>
+                            </div>
+                            <div class="title">
+                                <span>Support Email</span>
+                                <h3><a href="mailto:logistic@email.com">info@webmail.com</a></h3>
+                            </div>
+                        </div>
+                        <div class="single-box">
+                            <div class="icon">
+                                <span class="icon-phone-call"></span>
+                            </div>
+                            <div class="title">
+                                <span>Address</span>
+                                <h3>14/A, New York, NYC</h3>
+                            </div>
+                        </div>
+                        <div class="footer-social-info">
+                            <a href="#" class="fb-clr"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="tw-clr"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="you-clr"><i class="fa fa-youtube"></i></a>
+                            <a href="#" class="sk-clr"><i class="fa fa-skype"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>  
+                
+            </div>
+        </div>
+    </div>
+</footer>   
+<!--End footer area-->
+
+
+
+
+
+
+</div> 
+
+
+<button class="scroll-top scroll-to-target" data-target="html">
+    <span class="fa fa-angle-up"></span>
+</button> 
+
+
+
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/aos.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bootstrap-select.min.js"></script>
+<script src="assets/js/isotope.js"></script>
+<script src="assets/js/jquery.bootstrap-touchspin.js"></script>
+<script src="assets/js/jquery.countdown.min.js"></script>
+<script src="assets/js/jquery.countTo.js"></script>
+<script src="assets/js/jquery.easing.min.js"></script>
+<script src="assets/js/jquery.enllax.min.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/jquery.mixitup.min.js"></script>
+<script src="assets/js/jquery.paroller.min.js"></script>
+<script src="assets/js/jquery.polyglot.language.switcher.js"></script>
+<script src="assets/js/map-script.js"></script>
+<script src="assets/js/nouislider.js"></script>
+<script src="assets/js/owl.js"></script>
+<script src="assets/js/timePicker.js"></script>   
+<script src="assets/js/validation.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/lazyload.js"></script>
+<script src="assets/js/scrollbar.js"></script>
+<script src="assets/js/tilt.jquery.js"></script>
+<script src="assets/js/jquery.bxslider.min.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/parallax.min.js"></script>
+<script src="assets/js/jquery.tinyscrollbar.js"></script>
+<script src="assets/js/jQuery.style.switcher.min.js"></script>
+<!-- thm custom script -->
+<script src="assets/js/custom.js"></script>
+
+<script>
+  function updateCartCount(){
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    let count = cart.reduce((sum,item)=> sum + item.qty, 0);
+    document.getElementById("cart-count").textContent = count;
+  }
+  updateCartCount();
+</script>
+
+
+</body>
+</html>

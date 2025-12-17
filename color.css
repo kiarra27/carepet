@@ -1,0 +1,291 @@
+
+/*** 
+=====================================================
+	Theme Main Color Css
+=====================================================
+***/
+.thm-clr,
+.header-contact-info ul li span:before,
+.header-social-link ul li a:hover,
+.main-menu .navigation>li:hover>a,
+.main-menu .navigation>li.current>a,
+.main-menu .navigation>li>ul>li>a:hover,
+.main-menu .navigation> li> ul> li:hover> a,
+.main-menu .navigation> li> ul> li> ul> li> a:hover,
+.main-menu.style2 .navigation>li:hover>a,
+.main-menu.style2 .navigation>li.current>a,
+.main-slider .content h5,
+.main-menu .navigation> li> ul> li.dropdown> a:after,
+.single-featured-box .inner .icon span:before,
+.sec-title h5,
+.sec-title .icon,
+.single-service-style1 .text-holder h3 a:hover,
+.single-service-style1:hover .text-holder .button a,
+.working-hours-box ul li .right.holiday,
+.feautres-content-box .inner-content ul li .icon span:before,
+.single-priceing-plan-box .top .left p,
+.single-priceing-plan-box .top .right h2 span,
+.single-priceing-plan-box ul li span:before,
+.single-testimonial-style1 .text-holder span,
+.single-blog-style1 .text-holder .meta-info li span:before,
+.single-blog-style1 .text-holder .meta-info li a:hover,
+.single-blog-style1 .text-holder .blog-title a:hover,
+.footer-menu ul li a:hover,
+.header-contact-info.style2 ul li a:hover,
+.header-social-link.style2 ul li a:hover,
+.thm-formbox1 .input-box .icon,
+.thm-formbox1 .dropdown-item.active,
+.thm-formbox1 .dropdown-item:active,
+.thm-formbox1 .dropdown-item:hover,
+.cost-calculator-box .dropdown-item.active,
+.cost-calculator-box .dropdown-item:active,
+.cost-calculator-box .dropdown-item:hover,
+.single-service-style2 .text-holder h3 a:hover,
+.single-service-style2:hover .text-holder .button a,
+.accordion-box .accordion .accord-btn::after,
+.accordion-box .accordion .accord-btn.active h4,
+.accordion-box .accordion .accord-btn.active:after,
+.single-contact-info-box span,
+.single-contact-info-box ul li a:hover,
+.single-footer-widget .subscribe-box .icon,
+.footer-menu-style2 ul li a:hover,
+.breadcrumb-menu ul li a:hover,
+.breadcrumb-menu ul li.active,
+.progress-block .graph-outer .count-box,
+.single-fact-counter .count-box h2 .red,
+.single-fact-counter .count-box h2 .green,
+.contact-form form .input-box .icon,
+.service-details-main-image .overlay-box .icon span,
+.shorting .dropdown-item.active,
+.shorting .dropdown-item:active,
+.shorting .dropdown-item:hover,
+.filter-checkbox label span:before,
+.single-sidebar-style2 .size-filter li.active,
+.single-sidebar-style2 .size-filter li:hover,
+.single-sidebar-style2 .price-ranger .ranger-min-max-block input[type="text"],
+.single-sidebar-style2 .tag-filter li a:hover,
+.single-product-info-box .product-title p,
+.product-cart-box .dropdown-item.active,
+.product-cart-box .dropdown-item:active,
+.product-cart-box .dropdown-item:hover,
+.product-tab-box .tab-btns .tab-btn.active-btn span,
+.product-tab-box .tab-btns .tab-btn:hover span,
+.contact-form form .dropdown-item.active,
+.contact-form form .dropdown-item:active,
+.contact-form form .dropdown-item:hover,
+.single-filter-box span,
+.error-content h4,
+.single-blog-style2 .text-holder .blog-title a:hover,
+.single-blog-style2 .text-holder .meta-info li span:before,
+.single-blog-style2 .text-holder .meta-info li a:hover,
+.sidebar-social-link ul li a:hover,
+.single-sidebar .popular-feeds li .title-box h4 a:hover,
+.single-sidebar .popular-feeds li .title-box h6 span,
+.sidebar-twitter-feeds li .inner .icon,
+.blog-details-text-3 ul li span,
+.tag-social-share-box .social-share li a:hover,
+.blog-prev-next-option .single-box p a,
+.blog-prev-next-option .middle-box .icon a,
+.author-box-holder .inner .text-box span,
+.comment-box .single-comment-box .text-holder .top .name h5 span:before,
+.comment-box .single-comment-box .text-holder .top .reply a span:before,
+.add-comment-box #add-comment-form .input-box .icon,
+.cost-calculator-box .bootstrap-select>.dropdown-toggle::after,
+.contact-form form .bootstrap-select>.dropdown-toggle::after,
+.mobile-menu .navigation li.current > a,
+.mobile-menu .navigation li > a:hover,
+.outer-search-box-style1 .seach-toggle:hover,
+.outer-search-box-style1 .seach-toggle.active,
+.sticky-header .main-menu .navigation>li:hover>a,
+.sticky-header .main-menu .navigation>li.current>a,
+.mobile-menu .social-links li a:hover,
+.header-contact-info ul li a:hover,
+.hidden-bar .contact-info-box ul li h5{
+    color: #ff4880;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Background Color Css
+=====================================================
+***/
+.bar-box ul li,
+.main-slider .owl-theme .owl-nav .owl-next:hover,
+.main-menu .navigation>li>ul>li>a:before,
+.main-slider .content h2 .round,
+.sec-title h2 .round-box,
+.about-style1-content-box ul li .icon span:before,
+.video-gallery-area,
+.working-hours-box .title h3 span,
+.single-team-member:hover .img-holder .round-bottom,
+.single-blog-style1 .text-holder .blog-title .round-box,
+.footer-contact-info .single-box .icon,
+.scroll-top,
+.btn-one.style2:after,
+.video-holder-box-style2 .icon a span:before,
+.btn-one,
+.single-service-style2:after,
+.faq-style1-image-box .faq-main-image .box,
+.offers-content-box .button a,
+.single-contact-info-box .title h3 .dotted,
+.service-details-text-box h2 .dotted,
+.servicedet-prev-next-option .box.next,
+.service-details-sidebar .title h3 .dotted,
+.single-sidebar-style2 .price-ranger .ui-slider-handle,
+.single-sidebar-style2 .price-ranger .ui-slider .ui-slider-range,
+.product-tab-box .tab-btns .tab-btn span:before,
+.single-team-member.style2:hover .img-holder .round-bottom,
+.single-blog-style2 .text-holder .categories,
+.styled-pagination li:hover a,
+.styled-pagination li.active a,
+.sidebar-wrapper .single-sidebar .title:before,
+.sidebar-search-box .search-form button,
+.categorie-boxs li a:before,
+.sidebar-social-links li a:hover,
+.single-sidebar .popular-tag li a:hover,
+.blog-details-author-box,
+.tag-social-share-box .tag-list li a:hover,
+.single-priceing-plan-box.style3,
+.cost-calculator-box .title h3 .dotted,
+.styled-pagination li.prev a:hover,
+.styled-pagination li.next a:hover,
+.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"]:hover,
+.main-menu .navigation> li> ul> li> ul> li a:before,
+.bar-box:hover ul li.red2,
+.nav-outer .mobile-nav-toggler .inner {
+    background: #ff4880;
+}
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Main Color RGBA Css
+=====================================================
+***/
+.overlay-style-one.bg1,
+.overlay-style-one.bg2,
+.single-blog-style1 .img-holder .inner:before,
+.single-blog-style2 .img-holder .inner:before,
+.single-sidebar .instagram li .img-box .overlay-content {
+    background-color: rgba(255, 72, 128, 0.70);    
+}
+
+.callto-action-box:before,
+.single-blog-style2 .outer-box:before{
+    background-color: rgba(255, 72, 128, 0.90);    
+}
+
+
+
+/*** 
+=====================================================
+	Theme Main Border Color Css
+=====================================================
+***/
+.filter-checkbox input[type="checkbox"]:checked + label span,
+.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"]:hover {
+    border-color: #ff4880;
+}
+.mobile-menu .navigation li > a:before {
+    border-left: 5px solid #ff4880;
+}
+
+
+
+
+
+
+
+
+
+
+/*** 
+=====================================================
+	Theme Color Two Css
+=====================================================
+***/
+.single-featured-box .inner .icon span.clr3:before,
+.working-hours-box ul li .right,
+.offers-content-box h2,
+.widget-company-info .readmore a,
+.progress-block.green .graph-outer .count-box,
+.single-product-item .title-holder .price-box span,
+.single-product-info-box .product-value h3,
+.clear-selection a,
+.single-team-member .title-holder h5,
+.single-priceing-plan-box .button a i{
+    color: #8fc424;    
+}
+
+
+
+/*** 
+=====================================================
+	Theme Background Color Two Css
+=====================================================
+***/
+.main-slider .owl-theme .owl-nav .owl-prev:hover,
+.about-experience-box,
+.btn-one:after,
+.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"],
+.btn-one.style2,
+.about-style1-content-box.style1instyle2 .inner-content .button-box a.style2,
+.calculating-box .bar .inner,
+.calculating-box .bar .inner .value,
+.single-footer-widget .title h3 span,
+.breadcrumb-area .title h2 span,
+.sidebar-search-box .search-form button:hover,
+.main-slider.style2 .content h2 .round,
+.single-priceing-plan-box.style2 .button a{
+    background: #8fc424;    
+}
+
+
+
+/*** 
+=====================================================
+	Theme Border Color Two Css
+=====================================================
+***/
+.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"]{
+    border-color: #8fc424;    
+}
+
+
+
+/*** 
+=====================================================
+	Theme Background RGBA Color Two Css
+=====================================================
+***/
+.single-product-item .img-holder .overlay-content {
+    background: rgba(143, 196, 36, 0.70);    
+}
+
+
+
+
+
+
+.single-featured-box .inner .icon span.clr2:before{
+    color: #f9be4f;    
+}
+.categorie-boxs li a span {
+    background: #e3356b;
+}
